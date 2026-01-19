@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /payment-status
+Disallow: /login?redirect_to=*
+
+Sitemap: https://welittlefarmers.com/sitemap.xml

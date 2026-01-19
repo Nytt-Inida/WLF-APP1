@@ -1,0 +1,89 @@
+# Exclude MACOSX folder completely
+__MACOSX/
+**/__MACOSX/
+
+# Flutter/Dart related
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/*.iml
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/.gradle/
+**/android/local.properties
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/.last_build_id
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/macos/Flutter/ephemeral
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# Laravel/PHP related
+**/vendor/
+**/node_modules/
+**/public/build/
+**/public/hot/
+**/public/storage
+**/storage/*.key
+**/.env
+**/.env.backup
+**/.env.production
+**/.phpunit.cache/
+**/.phpunit.result.cache
+**/npm-debug.log
+**/yarn-error.log
+**/composer.phar
+**/error_log
+
+# IDE and Editor files
+**/.idea/
+**/.vscode/
+**/.fleet/
+**/*.swp
+**/*.swo
+**/*~
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
+**/.DS_Store?
+
+# Logs
+**/*.log
+**/logs/
+**/storage/logs/*.log
+
+# Credentials and sensitive files
+**/Credential/
+**/*.pem
+**/*.key
+**/google-services.json
+**/firebase_options.dart
+
+# Temporary files
+**/tmp/
+**/temp/
+**/*.tmp
+**/*.bak
+**/*.cache
+
+# Database files
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+
+# Test coverage
+**/coverage/
+**/.coverage
+
