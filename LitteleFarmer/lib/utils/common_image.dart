@@ -1,0 +1,35 @@
+class CommonImage {
+  static String app_logo = 'assets/app_logo.svg';
+  static String ic_wishlist = 'assets/ic_wishlist.svg';
+  static String ic_home = 'assets/ic_home.svg';
+  static String ic_person = 'assets/ic_person.svg';
+  static String ic_full_wishlist = 'assets/ic_full_wishlist.svg';
+  static String ic_course = 'assets/ic_purchase.svg';
+  static String ic_search = 'assets/ic_search.svg';
+  static String ic_timer = 'assets/ic_clock.svg';
+  static String ic_download_certificate = 'assets/ic_download_certificate.svg';
+  static String ic_back = 'assets/ic_back.svg';
+  static String ic_pause = 'assets/ic_pause.svg';
+  static String ic_play = 'assets/ic_play.svg';
+  static String ic_mute = 'assets/ic_mute.svg';
+  static String ic_volume = 'assets/ic_volume.svg';
+  static String ic_full_screen = 'assets/ic_full_screen.svg';
+  static String ic_close_round = 'assets/ic_close_round.svg';
+  static String ic_checkbox_checked = 'assets/ic_checkbox_checked.svg';
+  static String ic_current_play = 'assets/ic_current_play.svg';
+  static String ic_play_border = 'assets/ic_play_border.svg';
+  static String ic_wrong = 'assets/ic_wrong.svg';
+  static String ic_skip = 'assets/ic_skip.svg';
+  static String ic_arrow_right = 'assets/ic_arrow_right.svg';
+  static String ic_logout = 'assets/ic_logout.svg';
+  static String ic_certificate = 'assets/ic_certificate.svg';
+  static String ic_download = 'assets/ic_download.svg';
+  static String ic_info = 'assets/ic_info.svg';
+  static String img_payment_success = 'assets/img_payment_success.jpg';
+  static String img_payment_failed = 'assets/img_payment_failed.png';
+  static String bg_certificate = 'assets/bg_certificate.png';
+  static String img_girl_see_all = 'assets/img_girl_see_all.png';
+  static String img_see_all = 'assets/img_see_all.png';
+  static String img_dot_see_all = 'assets/img_dot_see_all.svg';
+  static String ic_update_profile = 'assets/ic_update_profile.svg';
+}

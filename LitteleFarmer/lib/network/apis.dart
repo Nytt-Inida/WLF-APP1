@@ -1,0 +1,42 @@
+class Apis {
+  static String baseURL = 'https://welittlefarmers.com/api/';
+
+  static String registrationUrl = "${baseURL}signup";
+  static String loginUrl = "${baseURL}login";
+  static String sendOtpUrl = "${baseURL}send-otp";
+  static String fetchCourseByAgeUrl = "${baseURL}fetch-courses-by-exact-age-group";
+  static String fetchPopularCourseUrl = "${baseURL}fetch-popular-courses";
+  static String addCourseInFavoriteUrl = "${baseURL}courses/favorite";
+  static String fetchFavoriteCourseUrl = "${baseURL}courses/favorites";
+  static String fetchPurchasedCourseUrl = "${baseURL}courses/purchased";
+  static String fetchCourseDetailUrl = "${baseURL}course/show";
+  static String courseVerifyUrl = "${baseURL}purchase-course";
+  static String processPaymentUrl = "${baseURL}process-payment";
+  static String logoutUrl = "${baseURL}logout";
+  static String fetchPurchasedCourseDetailUrl = "${baseURL}course/sections";
+  static String fetchSearchCourseUrl = "${baseURL}search/courses";
+  static String fetchQuizTestUrl = "${baseURL}fetch-tests";
+  static String submitQuizTestUrl = "${baseURL}submit-test";
+  static String fetchQuizTestResultUrl = "${baseURL}testresult";
+  static String completeLessonUrl = "${baseURL}lesson/complete";
+  static String fetchCompleteCourseCertificateUrl = "${baseURL}generate-certificate";
+  static String updateProfileUrl = "${baseURL}update-profile";
+  static String fetchBlogUrl = "${baseURL}blogs";
+  static String fetchBlogByTagUrl = "${baseURL}blogs/tag/";
+  static String fetchAllBlogTagsUrl = "${baseURL}blogs/tags/all";
+  static String generateVideoSignedUrl = "${baseURL}video/generate-url/";
+  static String manualPaymentUrl = "${baseURL}payment/manual-complete";
+  static String bookLiveSessionUrl = "${baseURL}book-live-course";
+  static String fetchReviewQuestionsUrl = "${baseURL}review/questions/";
+  static String submitReviewAnswersUrl = "${baseURL}review/submit/";
+  static String checkCourseCompletionUrl = "${baseURL}certificate/check-completion";
+  static String checkCouponUrl = "${baseURL}check-coupon";
+  static String getDiscountedPriceUrl = "${baseURL}get-discounted-price";
+  static String saveLessonPositionUrl = "${baseURL}lessons/save-position";
+  static String getLessonPositionUrl = "${baseURL}lessons/get-position/";
+  static String getLastWatchedUrl = "${baseURL}lessons/last-watched/";
+  static String getNextLessonUrl = "${baseURL}lessons/next/";
+  static String createPayPalOrderUrl = "${baseURL}paypal/create-order";
+  static String verifyPayPalPaymentUrl = "${baseURL}paypal/verify-payment";
+  static String capturePayPalOrderUrl = "${baseURL}paypal/capture-order";
+}
